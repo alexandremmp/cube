@@ -1,5 +1,10 @@
 $(document).ready(function() {
 
+    $('#fullpage').fullpage({
+        sectionsColor: ['#556270']
+    });
+
+
     var events = new Events();
     events.add = function(obj) {
         obj.events = {};
